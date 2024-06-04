@@ -34,7 +34,7 @@ def copiar_pdf_para_diretorio(origem_pdf, destino_diretorio, especializada):
         print(f"Ocorreu um erro ao copiar o arquivo PDF: {str(e)}")
 
 # Exemplo de uso da função
-if __name__ == "__main__":
+#if __name__ == "__main__":
 #     # Caminho do arquivo PDF de origem
 #     origem_pdf = "XPTO.pdf"
 #     
@@ -45,4 +45,13 @@ if __name__ == "__main__":
 #     especializada = "PPE"
     
     # Chama a função para copiar o PDF para o diretório específico com o tipo acrescentado
-    copiar_pdf_para_diretorio(origem_pdf, "DirTrein", especializada)
+copiar_pdf_para_diretorio(origem_pdf, "DirTrein", especializada)
+
+    #origem pdf= input de pdf, input de string especializada
+    #'PAS'
+    # 'PDA' 
+    # 'PPE' 
+    # 'PSE' 
+    # 'PTR' 
+    # 'PUMA'
+    # 'PTA' 
