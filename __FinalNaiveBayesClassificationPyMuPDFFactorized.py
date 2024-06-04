@@ -117,7 +117,7 @@ switch_case = {
 # while True:
 # # Predicting a new initial petition
 print("\nReviewing a new initial petition \n")
-pdf_file_path = input('Enter the name of the "pdf" file with the initial petition:')
+pdf_file_path = input('COLOCAR O INPUT DE DOCUMENTO DO PAV:')
     # Asking the user for the name of the PDF file containing the new initial petition.
     
 print(predict(pdf_file_path))

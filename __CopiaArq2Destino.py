@@ -45,7 +45,7 @@ def copiar_pdf_para_diretorio(origem_pdf, destino_diretorio, especializada):
 #     especializada = "PPE"
     
     # Chama a função para copiar o PDF para o diretório específico com o tipo acrescentado
-copiar_pdf_para_diretorio(origem_pdf, "DirTrein", especializada)
+copiar_pdf_para_diretorio("INPUT DO PDF FILE DO PAV", "DirTrein", "INPUT TEXTO PARA ESPECIALIZADA")
 
     #origem pdf= input de pdf, input de string especializada
     #'PAS'
